@@ -10,7 +10,8 @@
   "name": "backend-simanggamuda",
   "module": "index.js",
   "scripts": {
-    "dev": "bunx watch index.js"
+    "dev": "bunx watch index.js",
+    "start": "node index.js"
   },
   "type": "module",
   "private": true,
