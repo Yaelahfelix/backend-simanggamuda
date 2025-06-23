@@ -8,4 +8,4 @@ app.use(express.json());
 
 app.use("/api/v1", route);
 
-export const handler = serverless(app);
+export default serverless(app);
