@@ -11,7 +11,7 @@
   "name": "backend-simanggamuda",
   "module": "index.js",
   "scripts": {
-    "dev": "vercel dev",
+    "dev": "bunx watch index.js",
     "start": "node index.js"
   },
   "type": "module",

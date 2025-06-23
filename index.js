@@ -8,4 +8,4 @@ app.use(express.json());
 
 app.use("/api/v1", route);
 
-export default serverless(app);
+app.listen(3000);
