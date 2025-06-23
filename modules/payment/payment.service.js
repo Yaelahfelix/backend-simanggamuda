@@ -1,4 +1,4 @@
-import db from "../../lib/db";
+import db from "../../lib/db.js";
 import "dotenv/config";
 import crypto from "crypto";
 

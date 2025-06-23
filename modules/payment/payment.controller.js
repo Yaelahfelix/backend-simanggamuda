@@ -1,5 +1,5 @@
 import { format } from "date-fns";
-import PaymentService from "./payment.service";
+import PaymentService from "./payment.service.js";
 
 const PaymentController = {
   createPaymentQRIS: async (req, res) => {

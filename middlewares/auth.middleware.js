@@ -1,5 +1,5 @@
-import db from "../lib/db";
-import { verifyApiSecret } from "../lib/verifyApiSecret";
+import db from "../lib/db.js";
+import { verifyApiSecret } from "../lib/verifyApiSecret.js";
 
 export async function getUserBySession() {
   const sessionId = new TextEncoder().encode(token);

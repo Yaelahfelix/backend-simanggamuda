@@ -1,7 +1,7 @@
 import bcrypt from "bcryptjs";
 import validator from "validator";
 import crypto from "crypto";
-import db from "../lib/db";
+import db from "../lib/db.js";
 
 const AuthService = {
   async getUserBySession(token) {
